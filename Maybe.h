@@ -104,7 +104,7 @@ struct JustType<T*>
 /** Returns a type which can be implicitly cast to any Maybe<T> type,
   * representing a function which returned no value.
   */
-NothingType nothing()
+inline NothingType nothing()
 {
 	return NothingType();
 }
